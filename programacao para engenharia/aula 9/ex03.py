@@ -2,7 +2,7 @@ notas = []
 alunos_aprovados = 0
 
 
-for i in range(10):
+for i in range(2):
     notas_aluno = []
     for j in range(4):
         nota = float(input(f"Informe a {j+1}ª nota do aluno {i+1}: "))
