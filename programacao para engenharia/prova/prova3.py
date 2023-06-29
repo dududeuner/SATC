@@ -70,7 +70,7 @@ while opcao != "0":
     else:
         print("Opção inválida. Tente novamente.")
 
-# Cálculo da quantidade total de produtos e valor total do estoque
+
 quantidade_total = sum(produto["quantidade"] for produto in estoque.values())
 valor_total = sum(produto["preco"] * produto["quantidade"] for produto in estoque.values())
 
